@@ -1,0 +1,33 @@
+.mbox{
+  
+    margin:10px;
+    width:fit-content;
+    max-width: 60%;
+    padding-left: 15px;
+    padding-top:5px ;
+    padding-bottom: 5px;
+    padding-right:15px;
+    line-height: 25px;
+    /* padding-bottom: 3px; */
+    word-wrap: break-word;
+    display: inline-block;
+    clear: both;
+    font-size: 17px;
+}
+
+.right{
+    border-radius: 10px 0px 10px 10px;
+    float: right;
+    background-color: #bc7710;	
+    color: rgba(220, 232, 243, 0.963);
+    font-family: 'BhuTuka Expanded One', cursive;
+  text-align: center;
+}
+.left{
+    border-radius: 0px 10px 10px 10px;
+    float: left;
+    
+    background-color:  #4c5e67;
+    font-family: 'BhuTuka Expanded One', cursive;
+
+}

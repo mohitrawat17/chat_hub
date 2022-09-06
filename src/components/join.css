@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.page{
+  background-image: url(./images/2224368.png);  
+  background-size: 40%;
+  background-color: rgba(0, 0, 0, 0.723);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container{
+    background-color:rgba(0, 0, 0, 0.78);
+    height: 100vh;
+    width: 33%;
+height: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+box-shadow: 6px 0px 4px rgba(29, 27, 27, 0.708);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    --border-width: 4px;
+    position: relative;
+    
+}
+    .container::after {
+      position: absolute;
+      content: "";
+      top: calc(-1 * var(--border-width));
+      left: calc(-1 * var(--border-width));
+      z-index: -1;
+      width: calc(100% + var(--border-width) * 2);
+      height: calc(100% + var(--border-width) * 2);
+      background: linear-gradient(
+        60deg,
+        hsl(224, 85%, 66%),
+        hsl(269, 85%, 66%),
+        hsl(314, 85%, 66%),
+        hsl(359, 85%, 66%),
+        hsl(44, 85%, 66%),
+        hsl(89, 85%, 66%),
+        hsl(134, 85%, 66%),
+        hsl(179, 85%, 66%)
+      );
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: 40px;
+      animation: moveGradient 4s alternate infinite;
+    }
+  
+  
+  @keyframes moveGradient {
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+#chat{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 170px;
+    color: white;
+}
+#hub{
+    background-color: #f8981E;
+    color: black;
+    border-radius: 5px;
+    padding: 0px 4px 0px 4px;
+}
+#inp{
+    text-align: center;
+    line-height: 20px;
+    outline: none;
+    width: 170px;
+    color: white;
+    background-color: #e7aa5ac0;
+    border: none;
+    padding: 5px 0px 5px 0px;
+    font-family: 'BhuTuka Expanded One', cursive;
+    margin-bottom: 20px;
+}
+h3{
+    text-transform: uppercase;
+    margin-top: 20px;
+  cursor: pointer;
+  color: black;
+  border-radius: 7px;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+    background-color:  #f8981E;
+    font-weight: 800;
+    transition: 0.7s linear;
+}
+h3:hover{
+  color: white;
+  background-color: #435A64;
+}
+.linkk{
+    text-decoration: none;
+    
+}
+
+::-webkit-input-placeholder{
+    color: red;
+    font-size: 15px;
+    padding-left: 5px;
+  }
+
