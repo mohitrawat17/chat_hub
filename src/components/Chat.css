@@ -24,60 +24,7 @@ html {
       height: 100%;
       color:rgba(220, 232, 243, 0.963);
       box-shadow: 8px 4px 9px rgba(0, 0, 0, 0.812);
-/* border-radius: 18px; */
   }
-
-
-
-
-
-
-  .ccontainer {
-    --border-width: 400px;
-    position: relative;
-    
-}
-    .ccontainer::after {
-      position: absolute;
-      content: "";
-      top: calc(-1 * var(--border-width));
-      left: calc(-1 * var(--border-width));
-      z-index: -1;
-      width: calc(100% + var(--border-width) * 2);
-      height: calc(44.8% + var(--border-width) * 2);
-      background: linear-gradient(
-        60deg,
-        /* hsl(224, 85%, 66%), */
-        /* hsl(269, 85%, 66%), */
-        hsl(314, 85%, 66%),
-        hsl(359, 85%, 66%),
-        #ffa31a,
-        hsl(89, 85%, 66%),
-        hsl(134, 85%, 66%),
-        hsl(179, 85%, 66%)
-      );
-      background-size: 300% 300%;
-      background-position: 0 50%;
-      /* border-radius: 20px; */
-      animation: moveGradient 4s alternate infinite;
-    }
-  
-  
-  @keyframes moveGradient {
-    50% {
-      background-position: 100% 50%;
-    }
-  }
-
-
-
-
-
-
-
-
-
-
 
   .cheader {
       height: 10%;
@@ -152,7 +99,7 @@ overflow-y: auto;
   }
 ::-webkit-input-placeholder{
   color: rgba(245, 245, 245, 0.542);
-  font-size: 15px;
+  font-size: 16px;
   padding-left: 5px;
 }
 
@@ -169,4 +116,224 @@ border-radius: 20px 0px 20px 20px;
   .send:hover{
     background-color: #1fb054eb;
    
+  }
+
+
+
+  @media screen and  (max-width:999px) {
+    .ccontainer {
+      background-size:  70%;
+      width: 65%;
+      box-shadow: 7px 3px 8px rgba(0, 0, 0, 0.746);
+  }
+
+  .cheader {
+      height: 9%;
+    }
+    .ccheader{
+    margin-left: 12px;
+    }
+    .logo{
+     font-size: 35px;
+padding: 2px 0px 0px 4px;
+    }
+  .cbox{
+height: 81%;
+  }
+  .inputbox{
+  width: 68%;
+  padding-left: 10px;
+   border-radius: 19px 0px 19px 19px;
+  }
+
+  .cheader .a{
+    margin-right: 13px;
+    font-size: 21px;
+  }
+  .ccheader h4{
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height:35px;
+    font-size: 34px;
+    letter-spacing: 1px;
+  }
+  #cinput{
+    width: 83%;
+    font-size: 16px;
+    padding: 13px 0px 11.3px 10px;
+  }
+::-webkit-input-placeholder{
+  color: rgba(245, 245, 245, 0.542);
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+  .send{
+width: 17%;
+font-size: 46px;
+border-radius: 19px 0px 19px 19px;
+  }
+  }
+
+
+  @media screen and  (max-width:799px) {
+    .ccontainer {
+      background-size:  80%;
+      width: 74%;
+      box-shadow: 6px 2px 7px rgba(0, 0, 0, 0.684);
+  }
+
+  .cheader {
+      height: 8%;
+    }
+    .ccheader{
+    margin-left: 11px;
+    }
+    .logo{
+     font-size: 32px;
+padding: 1.5px 0px 0px 3.5px;
+    }
+  .cbox{
+height: 84%;
+  }
+  .inputbox{
+  width: 66%;
+  padding-left: 8px;
+   border-radius: 17px 0px 17px 17px;
+  }
+
+  .cheader .a{
+    margin-right: 11px;
+    font-size: 20px;
+  }
+  .ccheader h4{
+    margin-left: 5px;
+    margin-right: 5px;
+    line-height:33px;
+    font-size: 32px;
+    letter-spacing: 1.5px;
+  }
+  #cinput{
+    width: 78%;
+    font-size: 14px;
+    padding: 12px 0px 10.3px 9px;
+  }
+::-webkit-input-placeholder{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+  .send{
+width: 17%;
+font-size: 41px;
+border-radius: 17px 0px 17px 17px;
+  }
+  }
+
+
+  @media screen and  (max-width:610px) {
+    .ccontainer {
+      background-size:  95%;
+      width: 100%;
+      box-shadow: 5px 2px 6px rgba(0, 0, 0, 0.61);
+  }
+
+  .cheader {
+      height: 7%;
+    }
+    .ccheader{
+    margin-left: 9px;
+    }
+    .logo{
+     font-size: 30px;
+padding: 1px 0px 0px 3px;
+    }
+  .cbox{
+height: 86%;
+  }
+  .inputbox{
+  width: 66%;
+  padding-left: 5px;
+   border-radius: 15px 0px 15px 15px;
+  }
+
+  .cheader .a{
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .ccheader h4{
+    margin-left: 4px;
+    margin-right: 4px;
+    line-height:30px;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+  }
+  #cinput{
+    width: 80%;
+    font-size: 14px;
+    padding: 7px 0px 7px 7px;
+  }
+::-webkit-input-placeholder{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+  .send{
+width: 17%;
+font-size: 36px;
+border-radius: 15px 0px 15px 15px;
+  }
+  }
+
+
+  @media screen and  (max-width:480px) {
+    .ccontainer {
+      background-size:  110%;
+  }
+
+  .cheader {
+      height: 7%;
+    }
+    .ccheader{
+    margin-left: 9px;
+    }
+    .logo{
+     font-size: 30px;
+padding: 1px 0px 0px 3px;
+    }
+  .cbox{
+height: 87%;
+  }
+  .inputbox{
+  width: 64%;
+  padding-left: 4px;
+   border-radius: 13px 0px 13px 13px;
+  }
+
+  .cheader .a{
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  .ccheader h4{
+    margin-left: 4px;
+    margin-right: 4px;
+    line-height:28px;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+  }
+  #cinput{
+    width: 80%;
+    font-size: 13px;
+    padding: 6px 0px 6px 6px;
+  }
+::-webkit-input-placeholder{
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+  .send{
+width: 17%;
+font-size: 31px;
+border-radius: 13px 0px 13px 13px;
+  }
   }

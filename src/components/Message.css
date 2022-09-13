@@ -29,5 +29,88 @@
     
     background-color:  #4c5e67;
     font-family: 'BhuTuka Expanded One', cursive;
+}
 
+
+@media screen and  (max-width:999px) {
+    .mbox{
+        margin:9px;
+        width:fit-content;
+        max-width: 56%;
+        padding-left: 15px;
+        padding-top:5px ;
+        padding-bottom: 5px;
+        padding-right:15px;
+        line-height: 24px;
+        font-size: 17px;
+    }
+    
+    .right{
+        border-radius: 9px 0px 9px 9px;
+    }
+    .left{
+        border-radius: 0px 9px 9px 9px;
+    }
+}
+
+
+@media screen and  (max-width:799px) {
+    .mbox{
+        margin:8.4px;
+        max-width: 52%;
+        padding-left: 13px;
+        padding-top:4px ;
+        padding-bottom: 4px;
+        padding-right:13px;
+        line-height: 22px;
+        font-size: 16px;
+    }
+    
+    .right{
+        border-radius: 8px 0px 8px 8px;
+    }
+    .left{
+        border-radius: 0px 8px 8px 8px;
+    }
+}
+
+
+@media screen and  (max-width:610px) {
+    .mbox{
+        margin:7.5px;
+        max-width: 53%;
+        padding-left: 11px;
+        padding-top:3.5px ;
+        padding-bottom: 3.5px;
+        padding-right:11px;
+        line-height: 20px;
+        font-size: 14.4px;
+    }
+    
+    .right{
+        border-radius: 7px 0px 7px 7px;
+    }
+    .left{
+        border-radius: 0px 7px 7px 7px;
+    }
+}
+
+@media screen and  (max-width:480px) {
+    .mbox{
+        margin:6px;
+        max-width: 51%;
+        padding-left: 9px;
+        padding-top:3px ;
+        padding-bottom: 3px;
+        padding-right:9px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    
+    .right{
+        border-radius: 6px 0px 6px 6px;
+    }
+    .left{
+        border-radius: 0px 6px 6px 6px;
+    }
 }
